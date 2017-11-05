@@ -1,0 +1,19 @@
+{
+  "name": "vscode-smartstep-issue",
+  "version": "0.0.1",
+  "description": "Test scenario for the VS Code node debugger",
+  "scripts": {
+    "test": "test/test.js",
+    "build": "babel --presets=es2015 src --out-dir lib --source-maps inline"
+  },
+  "author": {
+    "name": "Kalman Keri",
+    "email": "<kk@metamaya.org>"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
