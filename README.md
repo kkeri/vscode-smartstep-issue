@@ -12,8 +12,7 @@ Steps to reproduce the issue:
 
 Expected behavior: the debugger stops on line 17.
 
-Actual behavior: the debugger doesn't stop until the program terminates, and
-runs very slowly.
+Actual behavior: the debugger doesn't stop until the program terminates.
 
 When the scenario is repeated with the "launch without smartstep"
 configuration, everything goes well.
